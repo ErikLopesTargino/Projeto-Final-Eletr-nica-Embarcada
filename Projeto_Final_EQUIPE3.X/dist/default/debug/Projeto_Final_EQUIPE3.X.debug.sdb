@@ -1,0 +1,1276 @@
+[p GLOBOPT AUTOSTATIC PIC14 PIC14E ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F1827 ]
+[d frameptr 6 ]
+"73 C:\Users\Erik\Documents\EE\Projeto_Embarcada\Projeto_Final_EQUIPE3.X\mcc_generated_files/spi1.c
+[e E92 . `uc
+SPI1_DEFAULT 0
+]
+"91 C:\Users\Erik\Documents\EE\Projeto_Embarcada\Projeto_Final_EQUIPE3.X\mcc_generated_files/adc.c
+[e E2331 . `uc
+Temp 2
+channel_Temp 29
+channel_DAC 30
+channel_FVR 31
+]
+"33 C:\Users\Erik\Documents\EE\Projeto_Embarcada\Projeto_Final_EQUIPE3.X\main.h
+[e E2650 movimento `uc
+descendo 0
+subindo 1
+parado 2
+]
+"336 C:\Users\Erik\Documents\EE\Projeto_Embarcada\Projeto_Final_EQUIPE3.X\main.c
+[e E2414 . `uc
+SPI1_DEFAULT 0
+]
+"62 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c90\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c90\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"56 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c90\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 3 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c90\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 3 0 ]
+"44 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c90\common\fttol.c
+[v ___fttol __fttol `(l  1 e 4 0 ]
+"28 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c90\common\lwtoft.c
+[v ___lwtoft __lwtoft `(f  1 e 3 0 ]
+"6 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c90\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"5 C:\Users\Erik\Documents\EE\Projeto_Embarcada\Projeto_Final_EQUIPE3.X\main.c
+[v _ascii2bin ascii2bin `(uc  1 e 1 0 ]
+"24
+[v _adicionaSolicitacaoNaFila adicionaSolicitacaoNaFila `(v  1 e 1 0 ]
+"36
+[v _controlaMotorElevador controlaMotorElevador `(v  1 e 1 0 ]
+[v i1_controlaMotorElevador controlaMotorElevador `(v  1 e 1 0 ]
+"53
+[v _subindoMatriz subindoMatriz `(v  1 e 1 0 ]
+[v i1_subindoMatriz subindoMatriz `(v  1 e 1 0 ]
+"63
+[v _descendoMatriz descendoMatriz `(v  1 e 1 0 ]
+[v i1_descendoMatriz descendoMatriz `(v  1 e 1 0 ]
+"73
+[v _paradoMatriz paradoMatriz `(v  1 e 1 0 ]
+[v i1_paradoMatriz paradoMatriz `(v  1 e 1 0 ]
+"82
+[v _PararElevadorEAtualizarEstado PararElevadorEAtualizarEstado `(v  1 e 1 0 ]
+[v i1_PararElevadorEAtualizarEstado PararElevadorEAtualizarEstado `(v  1 e 1 0 ]
+"90
+[v _AtualizarFilaSolicitacoes AtualizarFilaSolicitacoes `(v  1 e 1 0 ]
+[v i1_AtualizarFilaSolicitacoes AtualizarFilaSolicitacoes `(v  1 e 1 0 ]
+"103
+[v _AtualizarFlagDestino AtualizarFlagDestino `(v  1 e 1 0 ]
+[v i1_AtualizarFlagDestino AtualizarFlagDestino `(v  1 e 1 0 ]
+"114
+[v _CompletaSolicitacao CompletaSolicitacao `(v  1 e 1 0 ]
+[v i1_CompletaSolicitacao CompletaSolicitacao `(v  1 e 1 0 ]
+"129
+[v _determinaProximoDestinoPiso1 determinaProximoDestinoPiso1 `(v  1 e 1 0 ]
+"145
+[v _determinaProximoDestinoPiso2 determinaProximoDestinoPiso2 `(v  1 e 1 0 ]
+"163
+[v _Andar0 Andar0 `(v  1 e 1 0 ]
+[v i1_Andar0 Andar0 `(v  1 e 1 0 ]
+"193
+[v _Andar1 Andar1 `(v  1 e 1 0 ]
+"216
+[v _Andar2 Andar2 `(v  1 e 1 0 ]
+"239
+[v _Andar3 Andar3 `(v  1 e 1 0 ]
+"267
+[v _Interrupt_CCP4 Interrupt_CCP4 `(v  1 e 1 0 ]
+"282
+[v _initMatrix initMatrix `(v  1 e 1 0 ]
+"299
+[v _matrixUpdate matrixUpdate `(v  1 e 1 0 ]
+[v i1_matrixUpdate matrixUpdate `(v  1 e 1 0 ]
+"319
+[v _txSpi txSpi `(v  1 e 1 0 ]
+[v i1_txSpi txSpi `(v  1 e 1 0 ]
+"325
+[v _main main `(v  1 e 1 0 ]
+"67 C:\Users\Erik\Documents\EE\Projeto_Embarcada\Projeto_Final_EQUIPE3.X\mcc_generated_files/adc.c
+[v _ADC_Initialize ADC_Initialize `(v  1 e 1 0 ]
+"145
+[v _ADC_ISR ADC_ISR `(v  1 e 1 0 ]
+"156
+[v _ADC_SetInterruptHandler ADC_SetInterruptHandler `(v  1 e 1 0 ]
+"160
+[v _ADC_DefaultInterruptHandler ADC_DefaultInterruptHandler `(v  1 e 1 0 ]
+"60 C:\Users\Erik\Documents\EE\Projeto_Embarcada\Projeto_Final_EQUIPE3.X\mcc_generated_files/ccp4.c
+[v _CCP4_DefaultCallBack CCP4_DefaultCallBack `(v  1 s 1 CCP4_DefaultCallBack ]
+"65
+[v _CCP4_Initialize CCP4_Initialize `(v  1 e 1 0 ]
+"89
+[v _CCP4_CaptureISR CCP4_CaptureISR `(v  1 e 1 0 ]
+"104
+[v _CCP4_SetCallBack CCP4_SetCallBack `(v  1 e 1 0 ]
+"60 C:\Users\Erik\Documents\EE\Projeto_Embarcada\Projeto_Final_EQUIPE3.X\mcc_generated_files/cmp1.c
+[v _CMP1_Initialize CMP1_Initialize `(v  1 e 1 0 ]
+"87
+[v _CMP1_ISR CMP1_ISR `(v  1 e 1 0 ]
+"101
+[v _CMP1_SetInterruptHandler CMP1_SetInterruptHandler `(v  1 e 1 0 ]
+"60 C:\Users\Erik\Documents\EE\Projeto_Embarcada\Projeto_Final_EQUIPE3.X\mcc_generated_files/cmp2.c
+[v _CMP2_Initialize CMP2_Initialize `(v  1 e 1 0 ]
+"87
+[v _CMP2_ISR CMP2_ISR `(v  1 e 1 0 ]
+"101
+[v _CMP2_SetInterruptHandler CMP2_SetInterruptHandler `(v  1 e 1 0 ]
+"66 C:\Users\Erik\Documents\EE\Projeto_Embarcada\Projeto_Final_EQUIPE3.X\mcc_generated_files/eusart.c
+[v _EUSART_Initialize EUSART_Initialize `(v  1 e 1 0 ]
+"99
+[v _EUSART_is_rx_ready EUSART_is_rx_ready `(uc  1 e 1 0 ]
+"113
+[v _EUSART_Read EUSART_Read `(uc  1 e 1 0 ]
+"144
+[v _EUSART_DefaultFramingErrorHandler EUSART_DefaultFramingErrorHandler `(v  1 e 1 0 ]
+"146
+[v _EUSART_DefaultOverrunErrorHandler EUSART_DefaultOverrunErrorHandler `(v  1 e 1 0 ]
+"154
+[v _EUSART_DefaultErrorHandler EUSART_DefaultErrorHandler `(v  1 e 1 0 ]
+"157
+[v _EUSART_SetFramingErrorHandler EUSART_SetFramingErrorHandler `(v  1 e 1 0 ]
+"161
+[v _EUSART_SetOverrunErrorHandler EUSART_SetOverrunErrorHandler `(v  1 e 1 0 ]
+"165
+[v _EUSART_SetErrorHandler EUSART_SetErrorHandler `(v  1 e 1 0 ]
+"58 C:\Users\Erik\Documents\EE\Projeto_Embarcada\Projeto_Final_EQUIPE3.X\mcc_generated_files/fvr.c
+[v _FVR_Initialize FVR_Initialize `(v  1 e 1 0 ]
+"52 C:\Users\Erik\Documents\EE\Projeto_Embarcada\Projeto_Final_EQUIPE3.X\mcc_generated_files/interrupt_manager.c
+[v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `II(v  1 e 1 0 ]
+"50 C:\Users\Erik\Documents\EE\Projeto_Embarcada\Projeto_Final_EQUIPE3.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+"69
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+"79
+[v _WDT_Initialize WDT_Initialize `(v  1 e 1 0 ]
+"58 C:\Users\Erik\Documents\EE\Projeto_Embarcada\Projeto_Final_EQUIPE3.X\mcc_generated_files/memory.c
+[v _FLASH_ReadWord FLASH_ReadWord `(ui  1 e 2 0 ]
+"95
+[v _FLASH_WriteBlock FLASH_WriteBlock `(c  1 e 1 0 ]
+"156
+[v _FLASH_EraseBlock FLASH_EraseBlock `(v  1 e 1 0 ]
+"58 C:\Users\Erik\Documents\EE\Projeto_Embarcada\Projeto_Final_EQUIPE3.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+"119
+[v _PIN_MANAGER_IOC PIN_MANAGER_IOC `(v  1 e 1 0 ]
+"136
+[v _IOCBF0_ISR IOCBF0_ISR `(v  1 e 1 0 ]
+"151
+[v _IOCBF0_SetInterruptHandler IOCBF0_SetInterruptHandler `(v  1 e 1 0 ]
+"158
+[v _IOCBF0_DefaultInterruptHandler IOCBF0_DefaultInterruptHandler `(v  1 e 1 0 ]
+"166
+[v _IOCBF3_ISR IOCBF3_ISR `(v  1 e 1 0 ]
+"181
+[v _IOCBF3_SetInterruptHandler IOCBF3_SetInterruptHandler `(v  1 e 1 0 ]
+"188
+[v _IOCBF3_DefaultInterruptHandler IOCBF3_DefaultInterruptHandler `(v  1 e 1 0 ]
+"64 C:\Users\Erik\Documents\EE\Projeto_Embarcada\Projeto_Final_EQUIPE3.X\mcc_generated_files/pwm3.c
+[v _PWM3_Initialize PWM3_Initialize `(v  1 e 1 0 ]
+"82
+[v _PWM3_LoadDutyValue PWM3_LoadDutyValue `(v  1 e 1 0 ]
+[v i1_PWM3_LoadDutyValue PWM3_LoadDutyValue `(v  1 e 1 0 ]
+"62 C:\Users\Erik\Documents\EE\Projeto_Embarcada\Projeto_Final_EQUIPE3.X\mcc_generated_files/spi1.c
+[v _SPI1_Initialize SPI1_Initialize `(v  1 e 1 0 ]
+"72
+[v _SPI1_Open SPI1_Open `(uc  1 e 1 0 ]
+"92
+[v _SPI1_ExchangeByte SPI1_ExchangeByte `(uc  1 e 1 0 ]
+"100
+[v _SPI1_ExchangeBlock SPI1_ExchangeBlock `(v  1 e 1 0 ]
+[v i1_SPI1_ExchangeBlock SPI1_ExchangeBlock `(v  1 e 1 0 ]
+"64 C:\Users\Erik\Documents\EE\Projeto_Embarcada\Projeto_Final_EQUIPE3.X\mcc_generated_files/tmr0.c
+[v _TMR0_Initialize TMR0_Initialize `(v  1 e 1 0 ]
+"108
+[v _TMR0_ISR TMR0_ISR `(v  1 e 1 0 ]
+"130
+[v _TMR0_CallBack TMR0_CallBack `(v  1 e 1 0 ]
+"140
+[v _TMR0_SetInterruptHandler TMR0_SetInterruptHandler `(v  1 e 1 0 ]
+"144
+[v _TMR0_DefaultInterruptHandler TMR0_DefaultInterruptHandler `(v  1 e 1 0 ]
+"63 C:\Users\Erik\Documents\EE\Projeto_Embarcada\Projeto_Final_EQUIPE3.X\mcc_generated_files/tmr1.c
+[v _TMR1_Initialize TMR1_Initialize `(v  1 e 1 0 ]
+"113
+[v _TMR1_WriteTimer TMR1_WriteTimer `(v  1 e 1 0 ]
+"62 C:\Users\Erik\Documents\EE\Projeto_Embarcada\Projeto_Final_EQUIPE3.X\mcc_generated_files/tmr2.c
+[v _TMR2_Initialize TMR2_Initialize `(v  1 e 1 0 ]
+[s S227 . 1 `uc 1 IOCIF 1 0 :1:0 
+`uc 1 INTF 1 0 :1:1 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 IOCIE 1 0 :1:3 
+`uc 1 INTE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+"374 C:\Program Files\Microchip\xc8\v2.45\pic\include\proc\pic16f1827.h
+[s S236 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 T0IF 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 T0IE 1 0 :1:5 
+]
+[u S241 . 1 `S227 1 . 1 0 `S236 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES241  1 e 1 @11 ]
+[s S371 . 1 `uc 1 TMR1IF 1 0 :1:0 
+`uc 1 TMR2IF 1 0 :1:1 
+`uc 1 CCP1IF 1 0 :1:2 
+`uc 1 SSP1IF 1 0 :1:3 
+`uc 1 TXIF 1 0 :1:4 
+`uc 1 RCIF 1 0 :1:5 
+`uc 1 ADIF 1 0 :1:6 
+`uc 1 TMR1GIF 1 0 :1:7 
+]
+"570
+[u S380 . 1 `S371 1 . 1 0 ]
+[v _PIR1bits PIR1bits `VES380  1 e 1 @17 ]
+[s S638 . 1 `uc 1 CCP2IF 1 0 :1:0 
+`uc 1 . 1 0 :2:1 
+`uc 1 BCL1IF 1 0 :1:3 
+`uc 1 EEIF 1 0 :1:4 
+`uc 1 C1IF 1 0 :1:5 
+`uc 1 C2IF 1 0 :1:6 
+`uc 1 OSFIF 1 0 :1:7 
+]
+"631
+[u S646 . 1 `S638 1 . 1 0 ]
+[v _PIR2bits PIR2bits `VES646  1 e 1 @18 ]
+[s S682 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 TMR4IF 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 TMR6IF 1 0 :1:3 
+`uc 1 CCP3IF 1 0 :1:4 
+`uc 1 CCP4IF 1 0 :1:5 
+]
+"681
+[u S689 . 1 `S682 1 . 1 0 ]
+[v _PIR3bits PIR3bits `VES689  1 e 1 @19 ]
+"732
+[v _TMR0 TMR0 `VEuc  1 e 1 @21 ]
+"759
+[v _TMR1L TMR1L `VEuc  1 e 1 @22 ]
+"779
+[v _TMR1H TMR1H `VEuc  1 e 1 @23 ]
+"799
+[v _T1CON T1CON `VEuc  1 e 1 @24 ]
+[s S1294 . 1 `uc 1 TMR1ON 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 nT1SYNC 1 0 :1:2 
+`uc 1 T1OSCEN 1 0 :1:3 
+`uc 1 T1CKPS0 1 0 :1:4 
+`uc 1 T1CKPS1 1 0 :1:5 
+`uc 1 TMR1CS0 1 0 :1:6 
+`uc 1 TMR1CS1 1 0 :1:7 
+]
+"821
+[s S1303 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 T1CKPS 1 0 :2:4 
+`uc 1 TMR1CS 1 0 :2:6 
+]
+[u S1307 . 1 `S1294 1 . 1 0 `S1303 1 . 1 0 ]
+[v _T1CONbits T1CONbits `VES1307  1 e 1 @24 ]
+"871
+[v _T1GCON T1GCON `VEuc  1 e 1 @25 ]
+[s S1324 . 1 `uc 1 T1GSS0 1 0 :1:0 
+`uc 1 T1GSS1 1 0 :1:1 
+`uc 1 T1GVAL 1 0 :1:2 
+`uc 1 T1GGO 1 0 :1:3 
+`uc 1 T1GSPM 1 0 :1:4 
+`uc 1 T1GTM 1 0 :1:5 
+`uc 1 T1GPOL 1 0 :1:6 
+`uc 1 TMR1GE 1 0 :1:7 
+]
+"891
+[s S1333 . 1 `uc 1 T1GSS 1 0 :2:0 
+]
+[u S1335 . 1 `S1324 1 . 1 0 `S1333 1 . 1 0 ]
+[v _T1GCONbits T1GCONbits `VES1335  1 e 1 @25 ]
+"941
+[v _TMR2 TMR2 `VEuc  1 e 1 @26 ]
+"961
+[v _PR2 PR2 `VEuc  1 e 1 @27 ]
+"981
+[v _T2CON T2CON `VEuc  1 e 1 @28 ]
+[s S393 . 1 `uc 1 T2CKPS0 1 0 :1:0 
+`uc 1 T2CKPS1 1 0 :1:1 
+`uc 1 TMR2ON 1 0 :1:2 
+`uc 1 T2OUTPS0 1 0 :1:3 
+`uc 1 T2OUTPS1 1 0 :1:4 
+`uc 1 T2OUTPS2 1 0 :1:5 
+`uc 1 T2OUTPS3 1 0 :1:6 
+]
+"1002
+[s S401 . 1 `uc 1 T2CKPS 1 0 :2:0 
+`uc 1 . 1 0 :1:2 
+`uc 1 T2OUTPS 1 0 :4:3 
+]
+[u S405 . 1 `S393 1 . 1 0 `S401 1 . 1 0 ]
+[v _T2CONbits T2CONbits `VES405  1 e 1 @28 ]
+"1152
+[v _TRISA TRISA `VEuc  1 e 1 @140 ]
+"1214
+[v _TRISB TRISB `VEuc  1 e 1 @141 ]
+[s S914 . 1 `uc 1 TRISB0 1 0 :1:0 
+`uc 1 TRISB1 1 0 :1:1 
+`uc 1 TRISB2 1 0 :1:2 
+`uc 1 TRISB3 1 0 :1:3 
+`uc 1 TRISB4 1 0 :1:4 
+`uc 1 TRISB5 1 0 :1:5 
+`uc 1 TRISB6 1 0 :1:6 
+`uc 1 TRISB7 1 0 :1:7 
+]
+"1231
+[u S923 . 1 `S914 1 . 1 0 ]
+[v _TRISBbits TRISBbits `VES923  1 e 1 @141 ]
+[s S703 . 1 `uc 1 TMR1IE 1 0 :1:0 
+`uc 1 TMR2IE 1 0 :1:1 
+`uc 1 CCP1IE 1 0 :1:2 
+`uc 1 SSP1IE 1 0 :1:3 
+`uc 1 TXIE 1 0 :1:4 
+`uc 1 RCIE 1 0 :1:5 
+`uc 1 ADIE 1 0 :1:6 
+`uc 1 TMR1GIE 1 0 :1:7 
+]
+"1293
+[u S712 . 1 `S703 1 . 1 0 ]
+[v _PIE1bits PIE1bits `VES712  1 e 1 @145 ]
+[s S619 . 1 `uc 1 CCP2IE 1 0 :1:0 
+`uc 1 . 1 0 :2:1 
+`uc 1 BCL1IE 1 0 :1:3 
+`uc 1 EEIE 1 0 :1:4 
+`uc 1 C1IE 1 0 :1:5 
+`uc 1 C2IE 1 0 :1:6 
+`uc 1 OSFIE 1 0 :1:7 
+]
+"1354
+[u S627 . 1 `S619 1 . 1 0 ]
+[v _PIE2bits PIE2bits `VES627  1 e 1 @146 ]
+[s S665 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 TMR4IE 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 TMR6IE 1 0 :1:3 
+`uc 1 CCP3IE 1 0 :1:4 
+`uc 1 CCP4IE 1 0 :1:5 
+]
+"1404
+[u S672 . 1 `S665 1 . 1 0 ]
+[v _PIE3bits PIE3bits `VES672  1 e 1 @147 ]
+"1455
+[v _OPTION_REG OPTION_REG `VEuc  1 e 1 @149 ]
+[s S95 . 1 `uc 1 PS0 1 0 :1:0 
+`uc 1 PS1 1 0 :1:1 
+`uc 1 PS2 1 0 :1:2 
+`uc 1 PSA 1 0 :1:3 
+`uc 1 TMR0SE 1 0 :1:4 
+`uc 1 TMR0CS 1 0 :1:5 
+`uc 1 INTEDG 1 0 :1:6 
+`uc 1 nWPUEN 1 0 :1:7 
+]
+"1478
+[s S104 . 1 `uc 1 PS 1 0 :3:0 
+`uc 1 . 1 0 :1:3 
+`uc 1 T0SE 1 0 :1:4 
+`uc 1 T0CS 1 0 :1:5 
+]
+[u S109 . 1 `S95 1 . 1 0 `S104 1 . 1 0 ]
+[v _OPTION_REGbits OPTION_REGbits `VES109  1 e 1 @149 ]
+"1589
+[v _WDTCON WDTCON `VEuc  1 e 1 @151 ]
+"1648
+[v _OSCTUNE OSCTUNE `VEuc  1 e 1 @152 ]
+"1706
+[v _OSCCON OSCCON `VEuc  1 e 1 @153 ]
+"1847
+[v _ADRESL ADRESL `VEuc  1 e 1 @155 ]
+"1867
+[v _ADRESH ADRESH `VEuc  1 e 1 @156 ]
+"1887
+[v _ADCON0 ADCON0 `VEuc  1 e 1 @157 ]
+[s S1148 . 1 `uc 1 ADON 1 0 :1:0 
+`uc 1 GO_nDONE 1 0 :1:1 
+`uc 1 CHS0 1 0 :1:2 
+`uc 1 CHS1 1 0 :1:3 
+`uc 1 CHS2 1 0 :1:4 
+`uc 1 CHS3 1 0 :1:5 
+`uc 1 CHS4 1 0 :1:6 
+]
+"1912
+[s S1156 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 ADGO 1 0 :1:1 
+`uc 1 CHS 1 0 :5:2 
+]
+[s S1160 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO 1 0 :1:1 
+]
+[u S1163 . 1 `S1148 1 . 1 0 `S1156 1 . 1 0 `S1160 1 . 1 0 ]
+[v _ADCON0bits ADCON0bits `VES1163  1 e 1 @157 ]
+"1967
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @158 ]
+"2039
+[v _LATA LATA `VEuc  1 e 1 @268 ]
+[s S1452 . 1 `uc 1 LATA0 1 0 :1:0 
+`uc 1 LATA1 1 0 :1:1 
+`uc 1 LATA2 1 0 :1:2 
+`uc 1 LATA3 1 0 :1:3 
+`uc 1 LATA4 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 LATA6 1 0 :1:6 
+`uc 1 LATA7 1 0 :1:7 
+]
+"2056
+[u S1461 . 1 `S1452 1 . 1 0 ]
+[v _LATAbits LATAbits `VES1461  1 e 1 @268 ]
+"2096
+[v _LATB LATB `VEuc  1 e 1 @269 ]
+[s S1485 . 1 `uc 1 LATB0 1 0 :1:0 
+`uc 1 LATB1 1 0 :1:1 
+`uc 1 LATB2 1 0 :1:2 
+`uc 1 LATB3 1 0 :1:3 
+`uc 1 LATB4 1 0 :1:4 
+`uc 1 LATB5 1 0 :1:5 
+`uc 1 LATB6 1 0 :1:6 
+`uc 1 LATB7 1 0 :1:7 
+]
+"2113
+[u S1494 . 1 `S1485 1 . 1 0 ]
+[v _LATBbits LATBbits `VES1494  1 e 1 @269 ]
+"2158
+[v _CM1CON0 CM1CON0 `VEuc  1 e 1 @273 ]
+"2215
+[v _CM1CON1 CM1CON1 `VEuc  1 e 1 @274 ]
+"2281
+[v _CM2CON0 CM2CON0 `VEuc  1 e 1 @275 ]
+"2338
+[v _CM2CON1 CM2CON1 `VEuc  1 e 1 @276 ]
+[s S844 . 1 `uc 1 MC1OUT 1 0 :1:0 
+`uc 1 MC2OUT 1 0 :1:1 
+]
+"2415
+[u S847 . 1 `S844 1 . 1 0 ]
+[v _CMOUTbits CMOUTbits `VES847  1 e 1 @277 ]
+"2430
+[v _BORCON BORCON `VEuc  1 e 1 @278 ]
+"2457
+[v _FVRCON FVRCON `VEuc  1 e 1 @279 ]
+[s S781 . 1 `uc 1 ADFVR0 1 0 :1:0 
+`uc 1 ADFVR1 1 0 :1:1 
+`uc 1 CDAFVR0 1 0 :1:2 
+`uc 1 CDAFVR1 1 0 :1:3 
+`uc 1 TSRNG 1 0 :1:4 
+`uc 1 TSEN 1 0 :1:5 
+`uc 1 FVRRDY 1 0 :1:6 
+`uc 1 FVREN 1 0 :1:7 
+]
+"2478
+[s S790 . 1 `uc 1 ADFVR 1 0 :2:0 
+`uc 1 CDAFVR 1 0 :2:2 
+]
+[u S793 . 1 `S781 1 . 1 0 `S790 1 . 1 0 ]
+[v _FVRCONbits FVRCONbits `VES793  1 e 1 @279 ]
+"2779
+[v _APFCON0 APFCON0 `VEuc  1 e 1 @285 ]
+"2841
+[v _APFCON1 APFCON1 `VEuc  1 e 1 @286 ]
+"2861
+[v _ANSELA ANSELA `VEuc  1 e 1 @396 ]
+"2913
+[v _ANSELB ANSELB `VEuc  1 e 1 @397 ]
+"2985
+[v _EEADRL EEADRL `VEuc  1 e 1 @401 ]
+"3005
+[v _EEADRH EEADRH `VEuc  1 e 1 @402 ]
+"3032
+[v _EEDATL EEDATL `VEuc  1 e 1 @403 ]
+"3070
+[v _EEDATH EEDATH `VEuc  1 e 1 @404 ]
+[s S1040 . 1 `uc 1 RD 1 0 :1:0 
+`uc 1 WR 1 0 :1:1 
+`uc 1 WREN 1 0 :1:2 
+`uc 1 WRERR 1 0 :1:3 
+`uc 1 FREE 1 0 :1:4 
+`uc 1 LWLO 1 0 :1:5 
+`uc 1 CFGS 1 0 :1:6 
+`uc 1 EEPGD 1 0 :1:7 
+]
+"3107
+[u S1049 . 1 `S1040 1 . 1 0 ]
+[v _EECON1bits EECON1bits `VES1049  1 e 1 @405 ]
+"3152
+[v _EECON2 EECON2 `VEuc  1 e 1 @406 ]
+"3172
+[v _RCREG RCREG `VEuc  1 e 1 @409 ]
+"3192
+[v _TXREG TXREG `VEuc  1 e 1 @410 ]
+"3228
+[v _SPBRGL SPBRGL `VEuc  1 e 1 @411 ]
+"3278
+[v _SPBRGH SPBRGH `VEuc  1 e 1 @412 ]
+"3311
+[v _RCSTA RCSTA `VEuc  1 e 1 @413 ]
+[s S526 . 1 `uc 1 RX9D 1 0 :1:0 
+`uc 1 OERR 1 0 :1:1 
+`uc 1 FERR 1 0 :1:2 
+`uc 1 ADDEN 1 0 :1:3 
+`uc 1 CREN 1 0 :1:4 
+`uc 1 SREN 1 0 :1:5 
+`uc 1 RX9 1 0 :1:6 
+`uc 1 SPEN 1 0 :1:7 
+]
+"3328
+[u S535 . 1 `S526 1 . 1 0 ]
+[v _RCSTAbits RCSTAbits `VES535  1 e 1 @413 ]
+"3373
+[v _TXSTA TXSTA `VEuc  1 e 1 @414 ]
+[s S505 . 1 `uc 1 TX9D 1 0 :1:0 
+`uc 1 TRMT 1 0 :1:1 
+`uc 1 BRGH 1 0 :1:2 
+`uc 1 SENDB 1 0 :1:3 
+`uc 1 SYNC 1 0 :1:4 
+`uc 1 TXEN 1 0 :1:5 
+`uc 1 TX9 1 0 :1:6 
+`uc 1 CSRC 1 0 :1:7 
+]
+"3390
+[u S514 . 1 `S505 1 . 1 0 ]
+[v _TXSTAbits TXSTAbits `VES514  1 e 1 @414 ]
+"3435
+[v _BAUDCON BAUDCON `VEuc  1 e 1 @415 ]
+"3487
+[v _WPUA WPUA `VEuc  1 e 1 @524 ]
+"3516
+[v _WPUB WPUB `VEuc  1 e 1 @525 ]
+"3586
+[v _SSP1BUF SSP1BUF `VEuc  1 e 1 @529 ]
+"3624
+[v _SSP1ADD SSP1ADD `VEuc  1 e 1 @530 ]
+"3700
+[v _SSP1STAT SSP1STAT `VEuc  1 e 1 @532 ]
+"3822
+[v _SSP1CON1 SSP1CON1 `VEuc  1 e 1 @533 ]
+[s S935 . 1 `uc 1 SSPM0 1 0 :1:0 
+`uc 1 SSPM1 1 0 :1:1 
+`uc 1 SSPM2 1 0 :1:2 
+`uc 1 SSPM3 1 0 :1:3 
+`uc 1 CKP 1 0 :1:4 
+`uc 1 SSPEN 1 0 :1:5 
+`uc 1 SSPOV 1 0 :1:6 
+`uc 1 WCOL 1 0 :1:7 
+]
+"3851
+[s S944 . 1 `uc 1 SSPM 1 0 :4:0 
+]
+[u S946 . 1 `S935 1 . 1 0 `S944 1 . 1 0 ]
+[v _SSP1CON1bits SSP1CON1bits `VES946  1 e 1 @533 ]
+"4026
+[v _SSP1CON2 SSP1CON2 `VEuc  1 e 1 @534 ]
+[s S330 . 1 `uc 1 C1TSEL0 1 0 :1:0 
+`uc 1 C1TSEL1 1 0 :1:1 
+`uc 1 C2TSEL0 1 0 :1:2 
+`uc 1 C2TSEL1 1 0 :1:3 
+`uc 1 C3TSEL0 1 0 :1:4 
+`uc 1 C3TSEL1 1 0 :1:5 
+`uc 1 C4TSEL0 1 0 :1:6 
+`uc 1 C4TSEL1 1 0 :1:7 
+]
+"5505
+[s S339 . 1 `uc 1 C1TSEL 1 0 :2:0 
+`uc 1 C2TSEL 1 0 :2:2 
+`uc 1 C3TSEL 1 0 :2:4 
+`uc 1 C4TSEL 1 0 :2:6 
+]
+[u S344 . 1 `S330 1 . 1 0 `S339 1 . 1 0 ]
+[v _CCPTMRS0bits CCPTMRS0bits `VES344  1 e 1 @670 ]
+"5577
+[v _CCPR3L CCPR3L `VEuc  1 e 1 @785 ]
+"5597
+[v _CCPR3H CCPR3H `VEuc  1 e 1 @786 ]
+"5617
+[v _CCP3CON CCP3CON `VEuc  1 e 1 @787 ]
+"5688
+[v _CCPR4L CCPR4L `VEuc  1 e 1 @792 ]
+"5708
+[v _CCPR4H CCPR4H `VEuc  1 e 1 @793 ]
+"5728
+[v _CCP4CON CCP4CON `VEuc  1 e 1 @794 ]
+[s S181 . 1 `uc 1 IOCBP0 1 0 :1:0 
+`uc 1 IOCBP1 1 0 :1:1 
+`uc 1 IOCBP2 1 0 :1:2 
+`uc 1 IOCBP3 1 0 :1:3 
+`uc 1 IOCBP4 1 0 :1:4 
+`uc 1 IOCBP5 1 0 :1:5 
+`uc 1 IOCBP6 1 0 :1:6 
+`uc 1 IOCBP7 1 0 :1:7 
+]
+"5812
+[s S190 . 1 `uc 1 IOCBP 1 0 :8:0 
+]
+[u S192 . 1 `S181 1 . 1 0 `S190 1 . 1 0 ]
+[v _IOCBPbits IOCBPbits `VES192  1 e 1 @916 ]
+[s S155 . 1 `uc 1 IOCBN0 1 0 :1:0 
+`uc 1 IOCBN1 1 0 :1:1 
+`uc 1 IOCBN2 1 0 :1:2 
+`uc 1 IOCBN3 1 0 :1:3 
+`uc 1 IOCBN4 1 0 :1:4 
+`uc 1 IOCBN5 1 0 :1:5 
+`uc 1 IOCBN6 1 0 :1:6 
+`uc 1 IOCBN7 1 0 :1:7 
+]
+"5882
+[s S164 . 1 `uc 1 IOCBN 1 0 :8:0 
+]
+[u S166 . 1 `S155 1 . 1 0 `S164 1 . 1 0 ]
+[v _IOCBNbits IOCBNbits `VES166  1 e 1 @917 ]
+[s S129 . 1 `uc 1 IOCBF0 1 0 :1:0 
+`uc 1 IOCBF1 1 0 :1:1 
+`uc 1 IOCBF2 1 0 :1:2 
+`uc 1 IOCBF3 1 0 :1:3 
+`uc 1 IOCBF4 1 0 :1:4 
+`uc 1 IOCBF5 1 0 :1:5 
+`uc 1 IOCBF6 1 0 :1:6 
+`uc 1 IOCBF7 1 0 :1:7 
+]
+"5952
+[s S138 . 1 `uc 1 IOCBF 1 0 :8:0 
+]
+[u S140 . 1 `S129 1 . 1 0 `S138 1 . 1 0 ]
+[v _IOCBFbits IOCBFbits `VES140  1 e 1 @918 ]
+"23 C:\Users\Erik\Documents\EE\Projeto_Embarcada\Projeto_Final_EQUIPE3.X\main.h
+[v _velocidade velocidade `i  1 e 2 0 ]
+[s S1444 . 2 `uc 1 origem 1 0 `uc 1 destino 1 1 ]
+"24
+[v _filaSolicitacoes filaSolicitacoes `[5]S1444  1 e 10 0 ]
+"25
+[v _matriz matriz `[8]uc  1 e 8 0 ]
+"26
+[v _totalSolicitacoes totalSolicitacoes `uc  1 e 1 0 ]
+"27
+[v _andar_atual andar_atual `uc  1 e 1 0 ]
+"28
+[v _flagDestinos flagDestinos `[4]uc  1 e 4 0 ]
+"29
+[v _flagOrigens flagOrigens `[4]uc  1 e 4 0 ]
+"33
+[v _estado estado `E2650  1 e 1 0 ]
+"34
+[v _estado_anterior estado_anterior `E2650  1 e 1 0 ]
+"36
+[v _buffer buffer `[2]uc  1 e 2 0 ]
+"37
+[v _cont_RX cont_RX `uc  1 e 1 0 ]
+"38
+[v _posicao posicao `uc  1 e 1 0 ]
+"39
+[v _tempo_captura tempo_captura `f  1 e 3 0 ]
+"42
+[v _matrix_conf matrix_conf `DC[12]uc  1 e 12 0 ]
+"61 C:\Users\Erik\Documents\EE\Projeto_Embarcada\Projeto_Final_EQUIPE3.X\mcc_generated_files/adc.c
+[v _ADC_InterruptHandler ADC_InterruptHandler `*.37(v  1 e 2 0 ]
+"54 C:\Users\Erik\Documents\EE\Projeto_Embarcada\Projeto_Final_EQUIPE3.X\mcc_generated_files/ccp4.c
+[v _CCP4_CallBack CCP4_CallBack `*.37(v  1 s 2 CCP4_CallBack ]
+"58 C:\Users\Erik\Documents\EE\Projeto_Embarcada\Projeto_Final_EQUIPE3.X\mcc_generated_files/cmp1.c
+[v _CMP1_InterruptHandler CMP1_InterruptHandler `*.37(v  1 e 2 0 ]
+"58 C:\Users\Erik\Documents\EE\Projeto_Embarcada\Projeto_Final_EQUIPE3.X\mcc_generated_files/cmp2.c
+[v _CMP2_InterruptHandler CMP2_InterruptHandler `*.37(v  1 e 2 0 ]
+[s S447 . 1 `uc 1 perr 1 0 :1:0 
+`uc 1 ferr 1 0 :1:1 
+`uc 1 oerr 1 0 :1:2 
+`uc 1 reserved 1 0 :5:3 
+]
+"52 C:\Users\Erik\Documents\EE\Projeto_Embarcada\Projeto_Final_EQUIPE3.X\mcc_generated_files/eusart.c
+[u S452 . 1 `S447 1 . 1 0 `uc 1 status 1 0 ]
+[v _eusartRxLastError eusartRxLastError `VES452  1 e 1 0 ]
+"58
+[v _EUSART_FramingErrorHandler EUSART_FramingErrorHandler `*.37(v  1 e 2 0 ]
+"59
+[v _EUSART_OverrunErrorHandler EUSART_OverrunErrorHandler `*.37(v  1 e 2 0 ]
+"60
+[v _EUSART_ErrorHandler EUSART_ErrorHandler `*.37(v  1 e 2 0 ]
+"54 C:\Users\Erik\Documents\EE\Projeto_Embarcada\Projeto_Final_EQUIPE3.X\mcc_generated_files/pin_manager.c
+[v _IOCBF0_InterruptHandler IOCBF0_InterruptHandler `*.37(v  1 e 2 0 ]
+"55
+[v _IOCBF3_InterruptHandler IOCBF3_InterruptHandler `*.37(v  1 e 2 0 ]
+[s S906 . 4 `uc 1 con1 1 0 `uc 1 stat 1 1 `uc 1 add 1 2 `uc 1 operation 1 3 ]
+"58 C:\Users\Erik\Documents\EE\Projeto_Embarcada\Projeto_Final_EQUIPE3.X\mcc_generated_files/spi1.c
+[v _spi1_configuration spi1_configuration `DC[1]S906  1 s 4 spi1_configuration ]
+"58 C:\Users\Erik\Documents\EE\Projeto_Embarcada\Projeto_Final_EQUIPE3.X\mcc_generated_files/tmr0.c
+[v _timer0ReloadVal timer0ReloadVal `VEuc  1 e 1 0 ]
+"59
+[v _TMR0_InterruptHandler TMR0_InterruptHandler `*.37(v  1 e 2 0 ]
+"57 C:\Users\Erik\Documents\EE\Projeto_Embarcada\Projeto_Final_EQUIPE3.X\mcc_generated_files/tmr1.c
+[v _timer1ReloadVal timer1ReloadVal `VEui  1 e 2 0 ]
+"325 C:\Users\Erik\Documents\EE\Projeto_Embarcada\Projeto_Final_EQUIPE3.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"343
+[v main@i i `i  1 a 2 18 ]
+"347
+[v main@rx_char rx_char `uc  1 a 1 17 ]
+"369
+} 0
+"282
+[v _initMatrix initMatrix `(v  1 e 1 0 ]
+{
+"289
+[v initMatrix@j j `uc  1 a 1 15 ]
+"288
+[v initMatrix@dado dado `[2]uc  1 a 2 11 ]
+"287
+[v initMatrix@i_1612 i `uc  1 a 1 14 ]
+"283
+[v initMatrix@i i `uc  1 a 1 13 ]
+"296
+} 0
+"5
+[v _ascii2bin ascii2bin `(uc  1 e 1 0 ]
+{
+[v ascii2bin@caractereAscii caractereAscii `uc  1 a 1 wreg ]
+[v ascii2bin@caractereAscii caractereAscii `uc  1 a 1 wreg ]
+[v ascii2bin@caractereAscii caractereAscii `uc  1 a 1 0 ]
+"11
+} 0
+"24
+[v _adicionaSolicitacaoNaFila adicionaSolicitacaoNaFila `(v  1 e 1 0 ]
+{
+[v adicionaSolicitacaoNaFila@pisoOrigem pisoOrigem `uc  1 a 1 wreg ]
+[v adicionaSolicitacaoNaFila@pisoOrigem pisoOrigem `uc  1 a 1 wreg ]
+[v adicionaSolicitacaoNaFila@pisoDestino pisoDestino `uc  1 p 1 1 ]
+"26
+[v adicionaSolicitacaoNaFila@pisoOrigem pisoOrigem `uc  1 a 1 3 ]
+"33
+} 0
+"50 C:\Users\Erik\Documents\EE\Projeto_Embarcada\Projeto_Final_EQUIPE3.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+{
+"67
+} 0
+"79
+[v _WDT_Initialize WDT_Initialize `(v  1 e 1 0 ]
+{
+"83
+} 0
+"62 C:\Users\Erik\Documents\EE\Projeto_Embarcada\Projeto_Final_EQUIPE3.X\mcc_generated_files/tmr2.c
+[v _TMR2_Initialize TMR2_Initialize `(v  1 e 1 0 ]
+{
+"77
+} 0
+"63 C:\Users\Erik\Documents\EE\Projeto_Embarcada\Projeto_Final_EQUIPE3.X\mcc_generated_files/tmr1.c
+[v _TMR1_Initialize TMR1_Initialize `(v  1 e 1 0 ]
+{
+"84
+} 0
+"64 C:\Users\Erik\Documents\EE\Projeto_Embarcada\Projeto_Final_EQUIPE3.X\mcc_generated_files/tmr0.c
+[v _TMR0_Initialize TMR0_Initialize `(v  1 e 1 0 ]
+{
+"85
+} 0
+"140
+[v _TMR0_SetInterruptHandler TMR0_SetInterruptHandler `(v  1 e 1 0 ]
+{
+[v TMR0_SetInterruptHandler@InterruptHandler InterruptHandler `*.37(v  1 p 2 0 ]
+"142
+} 0
+"62 C:\Users\Erik\Documents\EE\Projeto_Embarcada\Projeto_Final_EQUIPE3.X\mcc_generated_files/spi1.c
+[v _SPI1_Initialize SPI1_Initialize `(v  1 e 1 0 ]
+{
+"70
+} 0
+"64 C:\Users\Erik\Documents\EE\Projeto_Embarcada\Projeto_Final_EQUIPE3.X\mcc_generated_files/pwm3.c
+[v _PWM3_Initialize PWM3_Initialize `(v  1 e 1 0 ]
+{
+"80
+} 0
+"58 C:\Users\Erik\Documents\EE\Projeto_Embarcada\Projeto_Final_EQUIPE3.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+{
+"117
+} 0
+"181
+[v _IOCBF3_SetInterruptHandler IOCBF3_SetInterruptHandler `(v  1 e 1 0 ]
+{
+[v IOCBF3_SetInterruptHandler@InterruptHandler InterruptHandler `*.37(v  1 p 2 0 ]
+"183
+} 0
+"151
+[v _IOCBF0_SetInterruptHandler IOCBF0_SetInterruptHandler `(v  1 e 1 0 ]
+{
+[v IOCBF0_SetInterruptHandler@InterruptHandler InterruptHandler `*.37(v  1 p 2 0 ]
+"153
+} 0
+"69 C:\Users\Erik\Documents\EE\Projeto_Embarcada\Projeto_Final_EQUIPE3.X\mcc_generated_files/mcc.c
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+{
+"77
+} 0
+"58 C:\Users\Erik\Documents\EE\Projeto_Embarcada\Projeto_Final_EQUIPE3.X\mcc_generated_files/fvr.c
+[v _FVR_Initialize FVR_Initialize `(v  1 e 1 0 ]
+{
+"62
+} 0
+"66 C:\Users\Erik\Documents\EE\Projeto_Embarcada\Projeto_Final_EQUIPE3.X\mcc_generated_files/eusart.c
+[v _EUSART_Initialize EUSART_Initialize `(v  1 e 1 0 ]
+{
+"92
+} 0
+"161
+[v _EUSART_SetOverrunErrorHandler EUSART_SetOverrunErrorHandler `(v  1 e 1 0 ]
+{
+[v EUSART_SetOverrunErrorHandler@interruptHandler interruptHandler `*.37(v  1 p 2 0 ]
+"163
+} 0
+"157
+[v _EUSART_SetFramingErrorHandler EUSART_SetFramingErrorHandler `(v  1 e 1 0 ]
+{
+[v EUSART_SetFramingErrorHandler@interruptHandler interruptHandler `*.37(v  1 p 2 0 ]
+"159
+} 0
+"165
+[v _EUSART_SetErrorHandler EUSART_SetErrorHandler `(v  1 e 1 0 ]
+{
+[v EUSART_SetErrorHandler@interruptHandler interruptHandler `*.37(v  1 p 2 0 ]
+"167
+} 0
+"60 C:\Users\Erik\Documents\EE\Projeto_Embarcada\Projeto_Final_EQUIPE3.X\mcc_generated_files/cmp2.c
+[v _CMP2_Initialize CMP2_Initialize `(v  1 e 1 0 ]
+{
+"80
+} 0
+"60 C:\Users\Erik\Documents\EE\Projeto_Embarcada\Projeto_Final_EQUIPE3.X\mcc_generated_files/cmp1.c
+[v _CMP1_Initialize CMP1_Initialize `(v  1 e 1 0 ]
+{
+"80
+} 0
+"65 C:\Users\Erik\Documents\EE\Projeto_Embarcada\Projeto_Final_EQUIPE3.X\mcc_generated_files/ccp4.c
+[v _CCP4_Initialize CCP4_Initialize `(v  1 e 1 0 ]
+{
+"87
+} 0
+"104
+[v _CCP4_SetCallBack CCP4_SetCallBack `(v  1 e 1 0 ]
+{
+[v CCP4_SetCallBack@customCallBack customCallBack `*.37(v  1 p 2 0 ]
+"106
+} 0
+"67 C:\Users\Erik\Documents\EE\Projeto_Embarcada\Projeto_Final_EQUIPE3.X\mcc_generated_files/adc.c
+[v _ADC_Initialize ADC_Initialize `(v  1 e 1 0 ]
+{
+"88
+} 0
+"156
+[v _ADC_SetInterruptHandler ADC_SetInterruptHandler `(v  1 e 1 0 ]
+{
+[v ADC_SetInterruptHandler@InterruptHandler InterruptHandler `*.37(v  1 p 2 0 ]
+"158
+} 0
+"72 C:\Users\Erik\Documents\EE\Projeto_Embarcada\Projeto_Final_EQUIPE3.X\mcc_generated_files/spi1.c
+[v _SPI1_Open SPI1_Open `(uc  1 e 1 0 ]
+{
+[v SPI1_Open@spi1UniqueConfiguration spi1UniqueConfiguration `E92  1 a 1 wreg ]
+[v SPI1_Open@spi1UniqueConfiguration spi1UniqueConfiguration `E92  1 a 1 wreg ]
+"74
+[v SPI1_Open@spi1UniqueConfiguration spi1UniqueConfiguration `E92  1 a 1 3 ]
+"85
+} 0
+"99 C:\Users\Erik\Documents\EE\Projeto_Embarcada\Projeto_Final_EQUIPE3.X\mcc_generated_files/eusart.c
+[v _EUSART_is_rx_ready EUSART_is_rx_ready `(uc  1 e 1 0 ]
+{
+"102
+} 0
+"113
+[v _EUSART_Read EUSART_Read `(uc  1 e 1 0 ]
+{
+"130
+} 0
+"101 C:\Users\Erik\Documents\EE\Projeto_Embarcada\Projeto_Final_EQUIPE3.X\mcc_generated_files/cmp2.c
+[v _CMP2_SetInterruptHandler CMP2_SetInterruptHandler `(v  1 e 1 0 ]
+{
+[v CMP2_SetInterruptHandler@InterruptHandler InterruptHandler `*.37(v  1 p 2 0 ]
+"103
+} 0
+"101 C:\Users\Erik\Documents\EE\Projeto_Embarcada\Projeto_Final_EQUIPE3.X\mcc_generated_files/cmp1.c
+[v _CMP1_SetInterruptHandler CMP1_SetInterruptHandler `(v  1 e 1 0 ]
+{
+[v CMP1_SetInterruptHandler@InterruptHandler InterruptHandler `*.37(v  1 p 2 0 ]
+"103
+} 0
+"163 C:\Users\Erik\Documents\EE\Projeto_Embarcada\Projeto_Final_EQUIPE3.X\main.c
+[v _Andar0 Andar0 `(v  1 e 1 0 ]
+{
+"190
+} 0
+"53
+[v _subindoMatriz subindoMatriz `(v  1 e 1 0 ]
+{
+"60
+} 0
+"73
+[v _paradoMatriz paradoMatriz `(v  1 e 1 0 ]
+{
+"80
+} 0
+"63
+[v _descendoMatriz descendoMatriz `(v  1 e 1 0 ]
+{
+"70
+} 0
+"299
+[v _matrixUpdate matrixUpdate `(v  1 e 1 0 ]
+{
+"309
+[v matrixUpdate@i_1628 i `uc  1 a 1 12 ]
+"308
+[v matrixUpdate@indice indice `uc  1 a 1 9 ]
+"300
+[v matrixUpdate@data data `[2]uc  1 a 2 10 ]
+"316
+} 0
+"319
+[v _txSpi txSpi `(v  1 e 1 0 ]
+{
+[v txSpi@data data `*.4uc  1 a 1 wreg ]
+[v txSpi@data data `*.4uc  1 a 1 wreg ]
+[v txSpi@dataSize dataSize `ui  1 p 2 5 ]
+[v txSpi@data data `*.4uc  1 a 1 7 ]
+"323
+} 0
+"100 C:\Users\Erik\Documents\EE\Projeto_Embarcada\Projeto_Final_EQUIPE3.X\mcc_generated_files/spi1.c
+[v _SPI1_ExchangeBlock SPI1_ExchangeBlock `(v  1 e 1 0 ]
+{
+[v SPI1_ExchangeBlock@block block `*.4v  1 a 1 wreg ]
+"102
+[v SPI1_ExchangeBlock@data data `*.4uc  1 a 1 4 ]
+"100
+[v SPI1_ExchangeBlock@block block `*.4v  1 a 1 wreg ]
+[v SPI1_ExchangeBlock@blockSize blockSize `ui  1 p 2 0 ]
+"102
+[v SPI1_ExchangeBlock@block block `*.4v  1 a 1 3 ]
+"110
+} 0
+"114 C:\Users\Erik\Documents\EE\Projeto_Embarcada\Projeto_Final_EQUIPE3.X\main.c
+[v _CompletaSolicitacao CompletaSolicitacao `(v  1 e 1 0 ]
+{
+"116
+[v CompletaSolicitacao@temOrigem temOrigem `uc  1 a 1 12 ]
+"115
+[v CompletaSolicitacao@temDestino temDestino `uc  1 a 1 11 ]
+"114
+[v CompletaSolicitacao@andar andar `i  1 p 2 9 ]
+"126
+} 0
+"82
+[v _PararElevadorEAtualizarEstado PararElevadorEAtualizarEstado `(v  1 e 1 0 ]
+{
+[v PararElevadorEAtualizarEstado@andar andar `i  1 p 2 5 ]
+"87
+} 0
+"36
+[v _controlaMotorElevador controlaMotorElevador `(v  1 e 1 0 ]
+{
+[v controlaMotorElevador@aux aux `E2650  1 a 1 wreg ]
+[v controlaMotorElevador@aux aux `E2650  1 a 1 wreg ]
+[v controlaMotorElevador@aux aux `E2650  1 a 1 4 ]
+"50
+} 0
+"82 C:\Users\Erik\Documents\EE\Projeto_Embarcada\Projeto_Final_EQUIPE3.X\mcc_generated_files/pwm3.c
+[v _PWM3_LoadDutyValue PWM3_LoadDutyValue `(v  1 e 1 0 ]
+{
+[v PWM3_LoadDutyValue@dutyValue dutyValue `ui  1 p 2 0 ]
+"89
+} 0
+"103 C:\Users\Erik\Documents\EE\Projeto_Embarcada\Projeto_Final_EQUIPE3.X\main.c
+[v _AtualizarFlagDestino AtualizarFlagDestino `(v  1 e 1 0 ]
+{
+"105
+[v AtualizarFlagDestino@i i `i  1 a 2 4 ]
+"103
+[v AtualizarFlagDestino@andar andar `i  1 p 2 0 ]
+"111
+} 0
+"90
+[v _AtualizarFilaSolicitacoes AtualizarFilaSolicitacoes `(v  1 e 1 0 ]
+{
+"91
+[v AtualizarFilaSolicitacoes@i i `i  1 a 2 5 ]
+"90
+[v AtualizarFilaSolicitacoes@andar andar `i  1 p 2 0 ]
+[v AtualizarFilaSolicitacoes@checarDestino checarDestino `uc  1 p 1 2 ]
+"100
+} 0
+"52 C:\Users\Erik\Documents\EE\Projeto_Embarcada\Projeto_Final_EQUIPE3.X\mcc_generated_files/interrupt_manager.c
+[v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `II(v  1 e 1 0 ]
+{
+"82
+} 0
+"108 C:\Users\Erik\Documents\EE\Projeto_Embarcada\Projeto_Final_EQUIPE3.X\mcc_generated_files/tmr0.c
+[v _TMR0_ISR TMR0_ISR `(v  1 e 1 0 ]
+{
+"110
+[v TMR0_ISR@CountCallBack CountCallBack `VEui  1 s 2 CountCallBack ]
+"128
+} 0
+"130
+[v _TMR0_CallBack TMR0_CallBack `(v  1 e 1 0 ]
+{
+"138
+} 0
+"144
+[v _TMR0_DefaultInterruptHandler TMR0_DefaultInterruptHandler `(v  1 e 1 0 ]
+{
+"147
+} 0
+"119 C:\Users\Erik\Documents\EE\Projeto_Embarcada\Projeto_Final_EQUIPE3.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_IOC PIN_MANAGER_IOC `(v  1 e 1 0 ]
+{
+"131
+} 0
+"166
+[v _IOCBF3_ISR IOCBF3_ISR `(v  1 e 1 0 ]
+{
+"176
+} 0
+"193 C:\Users\Erik\Documents\EE\Projeto_Embarcada\Projeto_Final_EQUIPE3.X\main.c
+[v _Andar1 Andar1 `(v  1 e 1 0 ]
+{
+"213
+} 0
+"188 C:\Users\Erik\Documents\EE\Projeto_Embarcada\Projeto_Final_EQUIPE3.X\mcc_generated_files/pin_manager.c
+[v _IOCBF3_DefaultInterruptHandler IOCBF3_DefaultInterruptHandler `(v  1 e 1 0 ]
+{
+"191
+} 0
+"129 C:\Users\Erik\Documents\EE\Projeto_Embarcada\Projeto_Final_EQUIPE3.X\main.c
+[v _determinaProximoDestinoPiso1 determinaProximoDestinoPiso1 `(v  1 e 1 0 ]
+{
+"142
+} 0
+"136 C:\Users\Erik\Documents\EE\Projeto_Embarcada\Projeto_Final_EQUIPE3.X\mcc_generated_files/pin_manager.c
+[v _IOCBF0_ISR IOCBF0_ISR `(v  1 e 1 0 ]
+{
+"146
+} 0
+"158
+[v _IOCBF0_DefaultInterruptHandler IOCBF0_DefaultInterruptHandler `(v  1 e 1 0 ]
+{
+"161
+} 0
+"163 C:\Users\Erik\Documents\EE\Projeto_Embarcada\Projeto_Final_EQUIPE3.X\main.c
+[v i1_Andar0 Andar0 `(v  1 e 1 0 ]
+{
+"190
+} 0
+"87 C:\Users\Erik\Documents\EE\Projeto_Embarcada\Projeto_Final_EQUIPE3.X\mcc_generated_files/cmp2.c
+[v _CMP2_ISR CMP2_ISR `(v  1 e 1 0 ]
+{
+"96
+} 0
+"239 C:\Users\Erik\Documents\EE\Projeto_Embarcada\Projeto_Final_EQUIPE3.X\main.c
+[v _Andar3 Andar3 `(v  1 e 1 0 ]
+{
+"264
+} 0
+"87 C:\Users\Erik\Documents\EE\Projeto_Embarcada\Projeto_Final_EQUIPE3.X\mcc_generated_files/cmp1.c
+[v _CMP1_ISR CMP1_ISR `(v  1 e 1 0 ]
+{
+"96
+} 0
+"216 C:\Users\Erik\Documents\EE\Projeto_Embarcada\Projeto_Final_EQUIPE3.X\main.c
+[v _Andar2 Andar2 `(v  1 e 1 0 ]
+{
+"236
+} 0
+"53
+[v i1_subindoMatriz subindoMatriz `(v  1 e 1 0 ]
+{
+"60
+} 0
+"73
+[v i1_paradoMatriz paradoMatriz `(v  1 e 1 0 ]
+{
+"80
+} 0
+"63
+[v i1_descendoMatriz descendoMatriz `(v  1 e 1 0 ]
+{
+"70
+} 0
+"299
+[v i1_matrixUpdate matrixUpdate `(v  1 e 1 0 ]
+{
+"300
+[v i1matrixUpdate@data data `[2]uc  1 a 2 10 ]
+"309
+[v i1matrixUpdate@i_1628 i `uc  1 a 1 12 ]
+"308
+[v i1matrixUpdate@indice indice `uc  1 a 1 9 ]
+"316
+} 0
+"114
+[v i1_CompletaSolicitacao CompletaSolicitacao `(v  1 e 1 0 ]
+{
+"116
+[v i1CompletaSolicitacao@temOrigem temOrigem `uc  1 a 1 12 ]
+"115
+[v i1CompletaSolicitacao@temDestino temDestino `uc  1 a 1 11 ]
+"114
+[v i1CompletaSolicitacao@andar andar `i  1 p 2 9 ]
+"126
+} 0
+"82
+[v i1_PararElevadorEAtualizarEstado PararElevadorEAtualizarEstado `(v  1 e 1 0 ]
+{
+[v i1PararElevadorEAtualizarEstado@andar andar `i  1 p 2 5 ]
+"87
+} 0
+"103
+[v i1_AtualizarFlagDestino AtualizarFlagDestino `(v  1 e 1 0 ]
+{
+"105
+[v i1AtualizarFlagDestino@i i `i  1 a 2 4 ]
+"103
+[v i1AtualizarFlagDestino@andar andar `i  1 p 2 0 ]
+"111
+} 0
+"90
+[v i1_AtualizarFilaSolicitacoes AtualizarFilaSolicitacoes `(v  1 e 1 0 ]
+{
+"91
+[v i1AtualizarFilaSolicitacoes@i i `i  1 a 2 5 ]
+"90
+[v i1AtualizarFilaSolicitacoes@andar andar `i  1 p 2 0 ]
+[v i1AtualizarFilaSolicitacoes@checarDestino checarDestino `uc  1 p 1 2 ]
+"100
+} 0
+"145
+[v _determinaProximoDestinoPiso2 determinaProximoDestinoPiso2 `(v  1 e 1 0 ]
+{
+"160
+} 0
+"36
+[v i1_controlaMotorElevador controlaMotorElevador `(v  1 e 1 0 ]
+{
+[v i1controlaMotorElevador@aux aux `E2650  1 a 1 wreg ]
+[v i1controlaMotorElevador@aux aux `E2650  1 a 1 wreg ]
+[v i1controlaMotorElevador@aux aux `E2650  1 a 1 4 ]
+"50
+} 0
+"82 C:\Users\Erik\Documents\EE\Projeto_Embarcada\Projeto_Final_EQUIPE3.X\mcc_generated_files/pwm3.c
+[v i1_PWM3_LoadDutyValue PWM3_LoadDutyValue `(v  1 e 1 0 ]
+{
+[v i1PWM3_LoadDutyValue@dutyValue dutyValue `ui  1 p 2 0 ]
+"89
+} 0
+"89 C:\Users\Erik\Documents\EE\Projeto_Embarcada\Projeto_Final_EQUIPE3.X\mcc_generated_files/ccp4.c
+[v _CCP4_CaptureISR CCP4_CaptureISR `(v  1 e 1 0 ]
+{
+[s S1411 . 2 `uc 1 ccpr4l 1 0 `uc 1 ccpr4h 1 1 ]
+"91
+[s S1414 . 2 `ui 1 ccpr4_16Bit 2 0 ]
+[u S1416 CCPR4Reg_tag 2 `S1411 1 . 2 0 `S1414 1 . 2 0 ]
+[v CCP4_CaptureISR@module module `S1416  1 a 2 28 ]
+"102
+} 0
+"60
+[v _CCP4_DefaultCallBack CCP4_DefaultCallBack `(v  1 s 1 CCP4_DefaultCallBack ]
+{
+"63
+} 0
+"267 C:\Users\Erik\Documents\EE\Projeto_Embarcada\Projeto_Final_EQUIPE3.X\main.c
+[v _Interrupt_CCP4 Interrupt_CCP4 `(v  1 e 1 0 ]
+{
+"268
+[v Interrupt_CCP4@data data `[2]uc  1 a 2 26 ]
+"267
+[v Interrupt_CCP4@valor_capturado valor_capturado `ui  1 p 2 23 ]
+"279
+} 0
+"319
+[v i1_txSpi txSpi `(v  1 e 1 0 ]
+{
+[v i1txSpi@data data `*.4uc  1 a 1 wreg ]
+[v i1txSpi@data data `*.4uc  1 a 1 wreg ]
+[v i1txSpi@dataSize dataSize `ui  1 p 2 5 ]
+[v i1txSpi@data data `*.4uc  1 a 1 7 ]
+"323
+} 0
+"100 C:\Users\Erik\Documents\EE\Projeto_Embarcada\Projeto_Final_EQUIPE3.X\mcc_generated_files/spi1.c
+[v i1_SPI1_ExchangeBlock SPI1_ExchangeBlock `(v  1 e 1 0 ]
+{
+[v i1SPI1_ExchangeBlock@block block `*.4v  1 a 1 wreg ]
+"102
+[v i1SPI1_ExchangeBlock@data data `*.4uc  1 a 1 4 ]
+"100
+[v i1SPI1_ExchangeBlock@block block `*.4v  1 a 1 wreg ]
+[v i1SPI1_ExchangeBlock@blockSize blockSize `ui  1 p 2 0 ]
+"102
+[v i1SPI1_ExchangeBlock@block block `*.4v  1 a 1 3 ]
+"110
+} 0
+"28 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c90\common\lwtoft.c
+[v ___lwtoft __lwtoft `(f  1 e 3 0 ]
+{
+[v ___lwtoft@c c `ui  1 p 2 8 ]
+"31
+} 0
+"44 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c90\common\fttol.c
+[v ___fttol __fttol `(l  1 e 4 0 ]
+{
+"47
+[v ___fttol@lval lval `ul  1 a 4 18 ]
+"46
+[v ___fttol@exp1 exp1 `uc  1 a 1 22 ]
+[v ___fttol@sign1 sign1 `uc  1 a 1 17 ]
+"44
+[v ___fttol@f1 f1 `f  1 p 3 10 ]
+"73
+} 0
+"62 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c90\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 3 0 ]
+{
+"65
+[v ___ftmul@f3_as_product f3_as_product `um  1 a 3 11 ]
+"64
+[v ___ftmul@sign sign `uc  1 a 1 15 ]
+[v ___ftmul@cntr cntr `uc  1 a 1 14 ]
+[v ___ftmul@exp exp `uc  1 a 1 10 ]
+"62
+[v ___ftmul@f1 f1 `f  1 p 3 0 ]
+[v ___ftmul@f2 f2 `f  1 p 3 3 ]
+"157
+} 0
+"56 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c90\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 3 0 ]
+{
+"60
+[v ___ftdiv@f3 f3 `f  1 a 3 5 ]
+"59
+[v ___ftdiv@sign sign `uc  1 a 1 9 ]
+[v ___ftdiv@exp exp `uc  1 a 1 8 ]
+[v ___ftdiv@cntr cntr `uc  1 a 1 4 ]
+"56
+[v ___ftdiv@f2 f2 `f  1 p 3 8 ]
+[v ___ftdiv@f1 f1 `f  1 p 3 11 ]
+"86
+} 0
+"62 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c90\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+{
+[v ___ftpack@arg arg `um  1 p 3 0 ]
+[v ___ftpack@exp exp `uc  1 p 1 3 ]
+[v ___ftpack@sign sign `uc  1 p 1 4 ]
+"86
+} 0
+"145 C:\Users\Erik\Documents\EE\Projeto_Embarcada\Projeto_Final_EQUIPE3.X\mcc_generated_files/adc.c
+[v _ADC_ISR ADC_ISR `(v  1 e 1 0 ]
+{
+"154
+} 0
+"160
+[v _ADC_DefaultInterruptHandler ADC_DefaultInterruptHandler `(v  1 e 1 0 ]
+{
+"163
+} 0
